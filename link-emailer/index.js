@@ -88,7 +88,7 @@ const processBatch = async (batch, startIndex) => {
       text: [
         `Hi ${email},`,
         '',
-        `We're reaching out because you're currently a member of one of our Nodes, we'd like you to vote on the next Index Node. Learn more about the grant program here: (https://www.index-space.org/nodes`,
+        `We're reaching out because you're currently a member of one of our Nodes, we'd like you to vote on the next Index Node. Learn more about the grant program here: https://www.index-space.org/nodes`,
         '',
         `We use a system called Quadratic Voting to give our members a weighted vote in choosing the next Index Node. More on QV here: https://www.radicalxchange.org/wiki/quadratic-voting/`,
         '',
