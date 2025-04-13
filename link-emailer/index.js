@@ -80,7 +80,7 @@ const processBatch = async (batch, startIndex) => {
     console.log(`Processing ${startIndex + i + 1}/${results.length}: ${email}`);
 
     const mailOptions = {
-      from: `"Hugh fromIndex Space" <${process.env.GMAIL_USER}>`,
+      from: `"Hugh from Index Space" <${process.env.GMAIL_USER}>`,
       to: email,
       cc: 'nodes@index-space.org',
       replyTo: 'nodes@index-space.org',
