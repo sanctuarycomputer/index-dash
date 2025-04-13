@@ -1,0 +1,4 @@
+.env
+emails.csv
+emails_with_status.csv
+node_modules
